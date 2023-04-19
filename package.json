@@ -29,5 +29,9 @@
     "redux": "^4.2.0",
     "sequelize": "^6.28.0",
     "stringbuffer": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=16.14"
   }
+  
 }
