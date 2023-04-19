@@ -1,0 +1,42 @@
+.Adddocument>button{
+    margin-left: 10px;
+    margin-top: 1px;
+ padding-right: 40px;
+    padding-left: 40px; 
+    background-color: #b8640a;  
+    border-radius: 0%;
+    color:#FFFFFF;
+    border-color:#81BD52;
+    margin-bottom: 0px;
+}
+
+
+.Adddocument{
+    margin-top: 30px;
+    background-color:  #F8F8F8;
+    
+}
+.navbarAssignedRight{
+    background-color:#F8F8F8;;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.rightAssigned>.navbarAssignedRight{
+    margin-top:25px;
+}
+
+
+.table{
+    margin-top: 1.5rem;
+    margin-left: 10px;
+}
+
+.table>thead{
+    background-color:#ABC7DE;
+}
+.tableColumnsSize{
+    min-width: "125px";
+    max-width:"130px" ;
+    word-wrap:"break-word"
+}

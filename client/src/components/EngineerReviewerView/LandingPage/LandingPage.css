@@ -1,0 +1,134 @@
+.customLandingPage{
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+
+}
+.myContainer{
+    border: 1px solid #3598AD;
+    padding: 0 0.3rem;
+    height: 300px;
+    overflow: auto;
+    
+}
+.SearchFieldsContainer{
+    padding: 1rem 3rem;
+}
+.searchHeader{
+    background-color: #C1C1C1;
+    
+}
+.customHeader{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #3598AD;
+}
+.customItems{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.MainSearchContainer{
+    align-self: center;
+}
+.customHeight{
+    position: relative;
+    height: 100%;
+}
+
+.customLeftNav , .customRightNav{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.badge{
+    font-size: 100% !important;
+}
+.customTable{
+    font-size: 85%;
+}
+.customAssProjSearchHeight{
+    height: 70%;
+    width: 100%;
+    margin-top: 3px;
+}
+.customItemsAssignedProj{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+
+.homeBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #C1C1C1;
+    padding: 0.4rem;
+}
+.leftHBar{
+    display: flex;
+    align-items: center;
+}
+.rightHBar{
+    display: flex;
+    align-items: center;
+}
+.searchBox{
+    display: flex;
+    align-items: center
+}
+.searchBox>input{
+    padding: 0.15rem;
+    border: 0;
+}
+.resultCs:hover{
+    cursor:pointer;
+    background-color: #f0f0f0;
+    background-color: #21B6D7; 
+    color: white;
+    border-radius: 1.3rem;
+}
+.customItems{
+    font-size: 0.7rem;
+}
+.searchModal > .modal-header{
+    background-color: #21B6D7;
+    color: white;
+    border-top-left-radius: 1.3rem;
+    border-top-right-radius: 1.3rem;
+}
+.searchModal > .modal-body{
+    max-height: 70vh;
+    overflow: auto;
+}
+.modal-content:has(.searchModal){
+    border-radius: 1.3rem;
+}
+.searchModal> .modal-footer > button{
+    background-color: #21B6D7 !important;
+    color: white !important;
+}
+
+/* Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 4.9px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #21B6D7; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

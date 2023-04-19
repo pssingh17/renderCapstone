@@ -1,0 +1,36 @@
+.LoginFormContainer{
+    padding-left: 20rem;
+    padding-right: 20rem;
+    /* background-color: #C1C1C1; */
+;
+}
+.customBtn{
+    color:white;
+    background-color:#21B6D7;
+    
+}
+.customBtn:hover{
+    background-color:#2dc9ec !important;
+}
+.FieldsContainer{
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+@media screen and (max-width:768px) {
+    .FieldsContainer{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+@media screen and (max-width:1024px) {
+    .LoginFormContainer{
+        padding-left: 5rem;
+        padding-right: 5rem;
+        /* background-color: #C1C1C1; */
+    ;
+    }
+}
+.LoginFooter{
+    display: flex;
+    justify-content: space-between;
+}

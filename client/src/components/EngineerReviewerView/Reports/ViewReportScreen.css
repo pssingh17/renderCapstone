@@ -1,0 +1,235 @@
+.ReviewReports{
+    
+    background-color:rgba(193, 193, 193, 1);
+    padding-bottom: -2px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+
+    
+}
+
+.ReviewReports>section{
+    padding-top: 2px;
+    font-size: x-large;
+}
+
+.colorbox{
+margin-left :65rem;
+margin-top: 1%;
+position:relative;
+     
+}
+
+.colorbox>p{
+    justify-content: center;
+}
+
+
+
+.reviewparents{
+    /* margin-right: 1%; */
+    margin-left: 4%;
+    /* justify-content: space-evenly; */
+    padding-bottom: 1%;
+    margin-top: 3%;
+    /* border-style: dotted; */
+ display: flex;
+    padding-left: 12px;
+    
+   
+
+
+}
+
+
+.ProjectNumber>input{
+    /* row-gap: 30%; */
+    /* column-gap: 410px; */
+    width: 120%;
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+}
+
+
+.ReviewType>input{
+    width: 120%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+
+.ReportType>input{
+    width: 120%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.RecievingContact>input{
+    width: 120%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+
+.ResponsiblePerson>input{
+    width: 120%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.ReviewerDate>input{
+    width: 120%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+
+.reportsreceivingcontainer{
+    padding-left: 8%;
+}
+
+.ReportRecieving>input{
+    width: 150%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.ReportReview>input{
+    width: 150%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+
+.ProductsCovered>input{
+    width: 150%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.Models>input{
+    width: 150%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+
+.Project>input{
+    width: 150%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.Comments>input{
+    width: 150%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+
+
+.Reportsstandards{
+        border-style: solid;
+        border-color: rgba(0, 125, 153, 1);  
+}
+
+
+.Reportsstandards{
+   
+    border-style: groove;
+    margin-top: 3%;
+    
+    padding-right: 1px;
+    margin-left: 12%;
+}
+
+
+.Reportsstandards>section{
+    border-color: rgba(0, 125, 153, 1);
+    margin-top: -2px;
+    margin-left: 10px;
+    margin-right: 1px;
+    height: 50px;
+    width: 450px;
+    border-style: groove;
+    padding-left: 10px;
+     padding-top: 15px;
+}
+
+
+
+
+.DocumentsParents{
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15%;
+    padding-left: 5%;
+}
+
+.DocumentsParents>h4{
+    
+    color:rgba(0, 125, 153, 1)
+}
+
+.DocumentsParents>button{
+    
+    width: 25%;
+    background: 
+    rgba(0, 125, 153, 1);
+    border-color:  rgba(0, 125, 153, 1);;
+    margin-bottom: 2%;
+    
+    
+}
+
+
+
+.table{
+    margin-bottom: 8%;
+    border-bottom:groove rgb(177, 179, 179);
+    
+}
+
+
+.table>tbody{
+    
+    background-color:rgba(248, 248, 248, 1);
+}
+
+
+.parentSearchResult{
+    position: relative;
+  }
+
+  .searchResults{
+    position: absolute;
+    top: 4rem;
+    background-color: white;
+    border: 1.5px solid #007D99;
+    z-index: 9;
+    width: 100%;
+  }
+  .searchItem{
+    border-bottom: 1px solid grey ;
+    color: black;
+    padding: 0.4rem;
+  }
+
+  .searchItem:hover{
+
+    color: blue;
+    cursor:pointer
+  }

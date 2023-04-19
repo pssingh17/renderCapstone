@@ -1,0 +1,430 @@
+.FormDetails{
+    display: flex;
+    justify-content:space-evenly;
+    
+    border:  solid #afafb1;
+    /* width: 0px; */
+    border-width: 3px;
+    
+    /* height: 580px;  */
+}
+
+
+.CustomFormComtainer
+{padding-left: 10PX; 
+    PADDING-RIGHT: 10px;
+    padding-top: 2.5rem;
+    padding-bottom: 10px;
+    
+}
+
+
+.FormLeft{
+    
+    color: rgb(43, 144, 211);
+  padding-left: 5px;
+  padding-top: 10px;
+  
+}
+
+
+
+
+.formDetails>input{
+    border-radius: 6px;
+    width: 450px;
+    border: 0 !important;
+    border: 1px solid #007D99 !important;
+    
+}
+
+
+
+.w3{  
+ display: flex; 
+}
+
+.w3>input{
+    border-radius: 6px;
+    border-color: rgb(130, 194, 209);
+    width: 210px; 
+}
+
+
+.w4{
+   
+    padding-left: 30px;
+    
+}
+
+.w4>input{
+    width: 210px;
+    border-radius: 6px;
+    border-color: rgb(131, 219, 235);
+}
+
+
+
+.lefttb2{
+    display: flex;
+    padding-top: 5px;
+    
+}
+
+.moveright{
+    
+    display: flex;
+    padding-left: 147px;
+}
+
+
+.lefttb3{
+    padding-top: 5px;
+}
+
+.w5>input{
+    border-radius: 6px;
+    width: 330px;
+    border-color: rgb(131, 226, 236);
+    
+    
+}
+
+.Btnm1{
+    
+    background: black;
+    color: rgb(252, 249, 247);
+
+}
+
+.w5>.Btnm1{
+    width: 120px;
+}
+
+.lefttb4{
+    padding-top: 5px;
+}
+
+.w6>input{
+    border-radius: 6px;
+    width: 330px;
+    border-color: rgb(133, 228, 240);
+    }
+
+.w6>.Btnm1{
+    width: 120px;
+}
+
+.lefttb5{
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.sam>textarea{
+    border-color: rgb(133, 228, 235);
+    height: 90px;
+    width: 100%;
+    border-radius: 6px;
+    
+}
+
+
+.sam>{
+    border-color: #8ae8f5;
+    height: 79px;
+    width: 100%;
+}
+
+
+.sam>input{
+    
+height: 80px; 
+width: 450px;
+border-radius: 6px;
+;   
+}
+
+
+
+
+
+.FormRight{
+    color: rgb(43, 144, 211);
+  /* padding-left: 110px; */
+  width: 40%;
+  padding-right: 10px;
+    
+}
+
+
+    
+    
+
+
+.righttb1>section {
+    padding-top: 13px;
+   
+}
+
+.productcovered>input{
+    border-radius: 6px;
+    width: 450px;
+    height: 90px;
+    border-color: rgb(113, 209, 228);
+}
+
+.righttb2{
+  
+    padding-top: 5px;
+}
+
+.models>input{
+    border-radius: 6px;
+    width: 450px;
+   
+    border-color: rgb(113, 209, 228);
+    height: 90px;
+}
+
+
+
+.righttb3{
+    padding-top: 5px;
+    color: #75a9b3;
+    display: flex;
+}
+
+.moveright1{
+    padding-left: 143px;
+}
+
+.righttb4>section{
+    padding-top: 5px;
+}
+
+.righttb4{
+    color: #69c7d4;
+    display: flex;
+}
+
+.moveright2{
+    padding-top: 5px;
+    padding-left: 108px;
+}
+
+
+
+.moveright3{
+    display: flex;
+}
+
+
+.righttb5{
+    padding-top: 5px;
+    color: #90e3f2;
+    display: flex;
+}
+
+
+
+.moveright3{
+    padding-left: 103px;
+}
+
+
+
+
+.finalbuttons{
+  padding-bottom: 20px;
+   display: flex;
+    
+    justify-content: end;
+}
+.finalbuttons>input{
+    
+  background: #60CD8A;  
+    color: #fcfcff;
+    border-radius: 6px;
+}
+
+
+.cancel>input{
+    border-radius: 6px;
+  }
+
+  .assProjectContainer{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+  }
+  .leftNavAssigned{
+    height: 70vh;
+    background: #FFFFFF;
+border: 1px solid #C3C3C3;
+  }
+ 
+
+  .navbarAssignedRight{
+    display: flex;
+    justify-content: space-around;
+    
+    background-color:  
+    #F8F8F8;
+    padding-top: 18px;
+  }
+  
+  .createProjectFolderBoxBorder{
+    border: 0 !important;
+    border: 1px solid #007D99 !important;
+  }
+
+  .customTableMArgin{
+    margin: 0 !important    ;
+    margin-left: 0.6rem !important;
+    
+  }
+  .custom-debounce-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .createProjectFolderBoxBorder{
+    width: 100%;
+  }
+  .parentSearchResult{
+    position: relative;
+  }
+
+  .searchResults{
+    position: absolute;
+    top: 2rem;
+    background-color: white;
+    border: 1.5px solid #007D99;
+    z-index: 9;
+    width: 100%;
+  }
+  .searchItem{
+    border-bottom: 1px solid grey ;
+    color: black;
+    padding: 0.4rem;
+  }
+
+  .searchItem:hover{
+
+    color: blue;
+    cursor:pointer
+  }
+  .projectListsParent{
+    display: flex   ;
+  }
+
+  .mainProjectsParent{
+    display: flex;
+  }
+  .projectListsParent{
+    cursor: pointer;
+    margin-left: 1rem;
+  }
+  .assignedProjectsParent ,.recentProjectsParent{
+    display: flex;
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+  .recentprojectsinnermost, .assignedprojectsinnermost{
+    margin-left: 4.5rem;
+  }
+  .projectListItems:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .activeProjectItem {
+    font-weight: 600;
+  }
+
+  /* Custom Modal */
+
+  .customModal {
+    
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  
+  /* Modal Content/Box */
+  .custom-modal-content {
+    position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  /* top: 50px; */
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+.custom-modal-header {
+  padding: 2px 16px;
+  background-color: #60CD8A;
+  color: white;
+}
+
+.custom-modal-body {padding: 2px 16px;}
+
+.custom-modal-footer {
+  padding: 2px 16px;
+  background-color: white;
+}
+.custom-modal-body{
+  width: 100%;
+  border-bottom: 1px solid green;
+}
+.customContent{
+  border: 2px solid green;
+  border-radius: 13px;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #E2FFE2;
+ 
+}
+/* DAte */
+
+input.custsession-date {
+  /* display: inline-block; */
+  position: relative;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}

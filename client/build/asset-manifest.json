@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1d8dda0e.css",
+    "main.js": "/static/js/main.505d8dd0.js",
+    "static/js/787.bb5e97dd.chunk.js": "/static/js/787.bb5e97dd.chunk.js",
+    "static/media/dailyComplianceLogo.png": "/static/media/dailyComplianceLogo.ea5d98296bb42238c8f3.png",
+    "static/media/complianceLogosImage.png": "/static/media/complianceLogosImage.e36d2c3392b4abdfcd93.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.1d8dda0e.css.map": "/static/css/main.1d8dda0e.css.map",
+    "main.505d8dd0.js.map": "/static/js/main.505d8dd0.js.map",
+    "787.bb5e97dd.chunk.js.map": "/static/js/787.bb5e97dd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d8dda0e.css",
+    "static/js/main.505d8dd0.js"
+  ]
+}

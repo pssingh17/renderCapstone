@@ -1,0 +1,9 @@
+.header{
+    background: #C1C1C1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.circleSv{
+    top: -11px;
+    position: absolute;
+}

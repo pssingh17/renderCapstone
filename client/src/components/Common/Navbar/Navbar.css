@@ -1,0 +1,70 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #130C0E;
+    position: fixed;
+    width: 100%;
+  }
+  
+
+  #itemCompliance{
+   width: 350px;
+  }
+  .navbar{
+    background-color: black;
+  }
+ .navbar .navbarLogout{
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: 5.5rem;
+  }
+ 
+  .nav-item{
+    font-size: 1rem;
+    padding: 1rem;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbarLogout > button{
+    background-color: black;
+  }
+
+  /* Here new */
+
+.nav-item{
+  padding: 0 !important;
+}
+.navbarHomePage{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+}
+.leftSideCh{
+  display: flex;
+  /* align-items: center; */
+}
+.RightSideCh{
+  display: flex;
+  align-items: center;
+
+}
+.EngReviewer{
+  display: flex;
+  align-items: center;
+}
+
+.fileLogo{
+  display: flex;
+    align-items: center;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
